@@ -1,3 +1,21 @@
+<!-- 
+1. Buat Folder, buka di vscode
+2. Buka terminal dan ketik git init
+3. buat file dengan nama index.html dan isikan html:5
+4. coba git 
+git init
+
+git add .
+
+git commit -m "first"
+
+git remote add origin https://github.com/nikenprecilia/ProjectVSGA.git
+
+git push -u origin master
+
+git log
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,5 +24,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <!-- 
+    5. buat folder image lalu download logo poliwangi yang ada di ilearning.poliwangi, masukkan ke foldernya lalu rename
+    6. di dalam body buat div, header lalu div lagi
+   -->
+  <body>
+    <div>
+      <header>
+        <div>
+          <a href="index.html">
+            <!-- 8. buat tag a yang isi hrefnya index.html, masukkan tag img ke dalam tag a -->
+            <img src="images\logo_poliwangi.png" alt="logo" />
+            <!-- 7. panggil image logo_poliwangi di src nya (klik kanan, copy relative path), untuk alt nya beri nama logo -->
+          </a>
+        </div>
+        <!-- 9. dibawah div img buat div lagi dan buat form yang di dalamnya di beri input type "search", dengan name "search" juga, input lagi "submit" dengan value=">" -->
+        <div>
+          <form>
+            <input type="search" name="search" placeholder="search site ..." />
+            <!-- 10. diberi placeholder="search site ..." -->
+            <input type="submit" value=">" />
+          </form>
+        </div>
+
+        <!-- 11. Membuat Navbar, kemudian diisi ul dan li yang isinya tag a href="#" diantaranya Home, Tentang Kami, Layanan, Master Data, Kontak Kami -->
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li>
+              <a href="#">Layanan</a>
+              <!-- 12. di dalam Layanan di beri ul kemudian li yang isinya tag a href="#" diantaranya Peminjaman, Pengadaan, Stock Opname -->
+              <ul>
+                <li><a href="#">Peminjaman</a></li>
+                <li><a href="#">Pengadaan</a></li>
+                <li><a href="#">Stock Opname</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Master Data</a></li>
+            <li><a href="#">Kontak Kami</a></li>
+          </ul>
+        </nav>
+        <!-- End Navbar -->
+      </header>
+      <!-- End Header -->
+
+      <!-- 13. Buat section yang berisi tag img, imagenya kita pakai banner vsga yang ada di internet masukkan di folder images dan copy relative path dan altnya "banner1". copy tag img nya dan alt diubah menjadi banner2 -->
+      <section>
+        <img src="images\banner1.jpeg" alt="banner1" />
+        <img src="images\banner1.jpeg" alt="banner2" />
+      </section>
+      <!-- end banner -->
+
+      <!-- 14. Buat section lagi yang isinya article lalu tag h1 dan p 2X di beri lorem ipsum -->
+      <section>
+        <!-- content -->
+        <article>
+          <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit minus numquam voluptatem dolores facere esse temporibus odio, reprehenderit eligendi quia, laudantium debitis libero consectetur. Doloribus rerum ex vero cumque,
+            animi iure aliquam quia aut perspiciatis earum officia molestias architecto voluptates aspernatur voluptatem sed consectetur accusamus at atque praesentium sint. Nihil, molestias quibusdam? Nostrum, obcaecati. Sequi corporis
+            placeat aperiam voluptatibus sint odit molestiae itaque eaque exercitationem! Facere, iure optio. Perspiciatis, quod sapiente fuga quae libero reiciendis hic, voluptatem ipsam non repellat amet in alias, quas quisquam ullam?
+            Quam perspiciatis, dignissimos facilis ad ullam, harum ut impedit veritatis reprehenderit dolorum nihil rerum perferendis animi voluptatum quo distinctio officiis expedita tempore quaerat sit? Non sit et molestiae quidem,
+            suscipit nihil velit nisi odio incidunt reprehenderit, ullam eum id accusantium totam sint aliquam quasi architecto error aut pariatur fugiat ipsa! Deserunt tempora suscipit illum ducimus impedit harum eveniet aspernatur? Cumque
+            explicabo totam maxime rerum deleniti, voluptatum eum sed similique fugit tempore ad omnis hic minus et quos dolorum accusantium molestias distinctio numquam ipsum consectetur non! Dolorem quae eum laboriosam eius magni
+            inventore dolores, placeat quas accusamus velit excepturi dolorum numquam, pariatur voluptatum temporibus commodi. Ab tempora, dolore explicabo consequuntur saepe in cupiditate aspernatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit minus numquam voluptatem dolores facere esse temporibus odio, reprehenderit eligendi quia, laudantium debitis libero consectetur. Doloribus rerum ex vero cumque,
+            animi iure aliquam quia aut perspiciatis earum officia molestias architecto voluptates aspernatur voluptatem sed consectetur accusamus at atque praesentium sint. Nihil, molestias quibusdam? Nostrum, obcaecati. Sequi corporis
+            placeat aperiam voluptatibus sint odit molestiae itaque eaque exercitationem! Facere, iure optio. Perspiciatis, quod sapiente fuga quae libero reiciendis hic, voluptatem ipsam non repellat amet in alias, quas quisquam ullam?
+            Quam perspiciatis, dignissimos facilis ad ullam, harum ut impedit veritatis reprehenderit dolorum nihil rerum perferendis animi voluptatum quo distinctio officiis expedita tempore quaerat sit? Non sit et molestiae quidem,
+            suscipit nihil velit nisi odio incidunt reprehenderit, ullam eum id accusantium totam sint aliquam quasi architecto error aut pariatur fugiat ipsa! Deserunt tempora suscipit illum ducimus impedit harum eveniet aspernatur? Cumque
+            explicabo totam maxime rerum deleniti, voluptatum eum sed similique fugit tempore ad omnis hic minus et quos dolorum accusantium molestias distinctio numquam ipsum consectetur non! Dolorem quae eum laboriosam eius magni
+            inventore dolores, placeat quas accusamus velit excepturi dolorum numquam, pariatur voluptatum temporibus commodi. Ab tempora, dolore explicabo consequuntur saepe in cupiditate aspernatur.
+          </p>
+        </article>
+
+        <!-- 15. membuat aside, diberi div dan heading3 yang isinya Kategori -->
+        <aside>
+          <div>
+            <h3>Kategori</h3>
+            <!-- 16. Kemuadian dibawahnya diberi ul lalu li yang isinya tag a href 2022, 2021, 2020 -->
+            <ul>
+              <li><a href="#">2022</a></li>
+              <li><a href="#">2021</a></li>
+              <li><a href="#">2020</a></li>
+            </ul>
+          </div>
+        </aside>
+        <!-- 17. Simpan di dalam Repositori GitHub
+        -> git add .
+        -> git commit -m "first" 
+        -> git push -u origin master
+        -->
+      </section>
+      <!-- end content -->
+    </div>
+  </body>
 </html>
