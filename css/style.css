@@ -1,10 +1,8 @@
-/* 2. buat body yang marginya 0 auto, backgroundnya gainsboro */
 body {
   margin: 0 auto;
   background-color: gainsboro;
 }
 
-/* 4. setelah membuat class container di html kita akan buat .container */
 .container {
   width: 1000px;
   height: auto;
@@ -12,43 +10,34 @@ body {
   margin: auto;
 }
 
-/* 5. membuat class .logo */
 .logo {
   float: left;
   padding: 15px;
 }
 
-/* 6. membuat class .search */
 .search {
   float: right;
   padding: 15px;
 }
 
-/* 10. membuat .clearfix */
 .clearfix {
   clear: both;
 }
 
-/* 11. lalu simpan di dalam git lagi (git add . lalu git commit -m "selesai css logo dan search" */
-
-/* 13. buat .main-menu */
 .main-menu {
   background-color: teal;
 }
 
-/* 14. buat .main-menu > ul */
 .main-menu > ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
-/* 15. buat .main-menu */
 .main-menu > ul > li {
   display: inline-block;
 }
 
-/* 16. buat .main-menu */
 .main-menu > ul > li > a {
   color: white;
   text-decoration: none;
@@ -58,12 +47,10 @@ body {
   font-size: small;
 }
 
-/* 17. buat */
 .main-menu > ul > li > a:hover {
   background-color: orange;
 }
 
-/* 19. */
 .drop {
   list-style-type: none;
   margin: 0px;
@@ -72,7 +59,6 @@ body {
   display: none; /* 22*/
 }
 
-/* 20. */
 .drop > li > a {
   color: white;
   text-decoration: none;
@@ -83,14 +69,10 @@ body {
   background-color: black;
 }
 
-/* 21 */
 .drop > li > a:hover {
   background-color: orange;
 }
 
-/* 23 */
 .main-menu > ul > li:hover .drop {
   display: block;
 }
-
-/* 24 Simpan dalam git (git add . lalu git commit -m "selesai menu navigasi" */
