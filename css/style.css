@@ -1,0 +1,30 @@
+/* 2. buat body yang marginya 0 auto, backgroundnya gainsboro */
+body {
+  margin: 0 auto;
+  background-color: gainsboro;
+}
+
+/* 4. setelah membuat class container di html kita akan buat .container */
+.container {
+  width: 1000px;
+  height: auto;
+  background-color: white;
+  margin: auto;
+}
+
+/* 5. membuat class .logo */
+.logo {
+  float: left;
+}
+
+/* 6. membuat class .search */
+.search {
+  float: right;
+}
+
+/* 10. membuat .clearfix */
+.clearfix {
+  clear: both;
+}
+
+/* 11. lalu simpan di dalam git lagi (git add . lalu git commit -m "selesai css logo dan search" */
